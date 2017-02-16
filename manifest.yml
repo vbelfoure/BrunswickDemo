@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BrunswickDemo
+  host: BrunswickDemo
+  disk_quota: 1024M
+  services:
+  - BrunswickDemo-cloudantNoSQLDB
+  - BrunswickDemo-iotf-service
